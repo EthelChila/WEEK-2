@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*.........................................HEADER.............................................*/
+.logo {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+.navbar {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  font-size: 1rem;
+}
+
+.container {
+  background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_2292,h_1510/v1653688465/assets/29/74ec2f-a727-47e1-9695-c78f8dadee5f/original/DotCom_Update_Earner_bg2x.jpg);
+  background-size: cover;
+  height: 53.4rem;
+  max-width: 100%;
+  object-fit: contain;
+}
+/* ..................................... SECTION 1 ..........................................*/
+.section1 {
+  position: relative;
+}
+.mini-header {
+  background-color: #ffffff;
+  width: 31.3rem;
+  height: 37.5rem;
+  margin-left: 2.5rem;
+  position: absolute;
+  top: 8.1rem;
+  left: 2.8rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul a:link {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar ul a:hover {
+  background-color: #656256;
+  border: 0.2rem transparent transparent;
+  border-radius: 0.9rem 0.9rem;
+  padding: 5px;
+}
+
+.mini-nav {
+  border-bottom: 0.1rem solid #edede9;
+  margin-top: 4.1rem;
+  margin-bottom: 4.1rem;
+  color: #000000;
+}
+.mini-nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.mini-nav ul a:link {
+  color: #000000;
+  text-decoration: none;
+}
+/* .....MOBILE........... */
+.btn-mobible-nav {
+  border: none;
+  /* background: none; */
+  cursor: pointer;
+  color: #ffff;
+  display: none;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.1rem;
+  line-height: 1;
+  letter-spacing: -0.1px;
+  margin-bottom: 2.5rem;
+  margin-left: 2.2rem;
+  margin-right: 1.3rem;
+}
+
+.D-D {
+  display: flex;
+  flex-direction: column;
+}
+.icon1 {
+  align-self: center;
+}
+.ToEat {
+  display: flex;
+  flex-direction: column;
+}
+.icon2 {
+  align-self: center;
+}
+.T-ride {
+  display: flex;
+  flex-direction: column;
+}
+.icon2 {
+  align-self: center;
+}
+.navText p {
+  margin-left: 2.2rem;
+}
+.navText p a:link {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 3.1rem;
+}
+.left-side ul {
+  display: flex;
+  gap: 1.9rem;
+}
+.left-side ul a:link {
+  color: #ffffff;
+}
+.right-side ul {
+  display: flex;
+  gap: 1.9rem;
+}
+.right-side ul a:link {
+  color: #ffffff;
+}
+.navText button {
+  margin-top: 3.1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #edede9;
+  background-color: #000000;
+  border-radius: 0.4rem 0.4rem;
+  padding: 0.9rem;
+  margin-left: 2.2rem;
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+}
+.navText button:hover {
+  background-color: #252525;
+}
+/* ...................................SECTION 2............................................ */
+.Sec2 {
+  background-image: url(https://www.loreal-finance.com/site/RA2017/app/uploads/2018/03/NYC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 17.5rem;
+  position: relative;
+}
+.h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.2rem;
+  position: absolute;
+  left: 4.4rem;
+  top: 4.4rem;
+  font-weight: bold;
+}
+.p {
+  position: absolute;
+  left: 2.5rem;
+  top: 8.75rem;
+}
+.B2 {
+  color: #edede9;
+  background-color: #000000;
+  border-radius: 0.4rem 0.4rem;
+  font-weight: 34.4rem;
+  padding: 0.9rem;
+  position: absolute;
+  left: 0.9rem;
+  top: 12.5rem;
+  cursor: pointer;
+}
+.B2:hover {
+  background-color: #252525;
+}
+/* .......................................SECTION 3......................................... */
+.wrap3 {
+  margin-top: 12.5rem;
+}
+.section3 {
+  display: flex;
+
+  gap: 30px;
+  width: 1200px;
+  height: 80%;
+  margin-left: 95px;
+  margin-bottom: 70px;
+  /* font-size: 18px; */
+}
+.pR {
+  display: inline;
+}
+.pL {
+  display: inline;
+}
+
+.sec3H {
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.imgL {
+  margin-bottom: 15px;
+}
+.h3L {
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.pL {
+  margin-bottom: 40px;
+}
+.Safety-Guidelines {
+  display: flex;
+  gap: 30px;
+}
+.Safety-Guidelines a:link {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 20px;
+  border-bottom: 2px solid #edede9;
+}
+.imgR {
+  margin-bottom: 15px;
+}
+.wrap3 {
+  margin-top: 30px;
+  align-items: center;
+}
+.h3R {
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.pR {
+  margin-bottom: 40px;
+}
+.cities {
+  margin-top: 25px;
+}
+.cities a:link {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 2px solid #edede9;
+}
+/* ....................................................SECTION 4............................. */
+.section4 {
+  display: flex;
+  width: 75rem;
+  margin-left: 6.25rem;
+  font-size: 1.1rem;
+}
+.about {
+  padding: 3.1rem;
+  width: 25rem;
+}
+.about a:link {
+  text-decoration: none;
+  color: black;
+}
+.space {
+  margin-top: 1.9rem;
+}
+.newsroom {
+  padding: 3.1rem;
+  width: 25rem;
+}
+.newsroom a:link {
+  text-decoration: none;
+  color: black;
+}
+.space2 {
+  margin-top: 1.9rem;
+}
+.Global-Citizenship {
+  padding: 3.1rem;
+  width: 25rem;
+}
+.Global-Citizenship a:link {
+  text-decoration: none;
+  color: black;
+}
+.space3 {
+  margin-top: 1.9;
+}
+.section4 h4 {
+  font-size: 1.1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+/* ..............................................Last SECTION................................ */
+.wrap4 {
+  margin-bottom: 3.1rem;
+}
+.last-section {
+  display: flex;
+  justify-content: space-between;
+}
+#ubereats {
+  text-align: right;
+  padding-top: 4.4rem;
+  padding-right: 4.3rem;
+}
+.uberlogo {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+.footer-items {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-items p {
+  margin-bottom: 6.25rem;
+  line-height: 2;
+}
+.footer-items ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 2;
+}
+.footer-items ul a:hover {
+  color: #656256;
+}
+.last-section h4 {
+  margin-bottom: 1.25rem;
+}
+.company,
+.products,
+li {
+  list-style: none;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media ul {
+  display: flex;
+  gap: 7.5rem;
+}
+.social-media ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-media ul a:hover {
+  background-color: #656256;
+  border: 0.2rem transparent transparent;
+  border-radius: 0.9rem 0.9rem;
+  padding: 0.6rem;
+}
+.last-wrap {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.6rem;
+}
+.location ul {
+  display: flex;
+  gap: 0.9rem;
+}
+.location ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.location ul a:hover {
+  background-color: #656256;
+  border: 0.2rem transparent transparent;
+  border-radius: 0.9rem 0.9rem;
+  padding: 0.3rem;
+}
+.last {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.last ul {
+  display: flex;
+  gap: 0.6rem;
+}
+.last ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.last ul a:hover {
+  color: #656256;
+}
+.footer-wrap {
+  background-color: #000000;
+  color: #ffffff;
+  height: 54rem;
+}
+.appstore {
+  margin-top: 4.4rem;
+  margin-bottom: 2.5rem;
+  width: 7.8rem;
+  height: 3.1rem;
+  margin-right: 0.6rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.3rem 0.3rem;
+  background-color: #000000;
+}
+.apps {
+  gap: 1.9rem;
+}
+.googleplaystore {
+  margin-top: 4.4rem;
+  margin-bottom: 2.5rem;
+  width: 7.8rem;
+  height: 3.1rem;
+  margin-right: 0.6rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.3rem 0.3rem;
+}

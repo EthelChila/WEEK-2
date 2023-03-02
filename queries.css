@@ -1,0 +1,64 @@
+@media (max-width: 780px) {
+  .navbar {
+    width: 80%;
+  }
+  .mini-header {
+    position: relative;
+    top: 0px;
+    height: 45%;
+    width: 60%;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .navText-for-media {
+    display: flex;
+  }
+  .navText-for-media p {
+    align-self: center;
+    /* margin-top: 30px; */
+    font-size: 1.1rem;
+  }
+  .navP-media {
+    font-size: 1.1rem;
+  }
+  .container {
+    height: 27rem;
+    width: 80%;
+  }
+  .navText-button-media {
+    width: 17rem;
+  }
+  .sec2 {
+    height: 16rem;
+    width: 5px;
+  }
+  .section3 {
+    height: 13px;
+    width: 25rem;
+  }
+  .sec3H {
+    font-size: 2rem;
+  }
+  .imgR {
+    width: 17.5rem;
+  }
+  .imgL {
+    width: 17.5rem;
+  }
+  .section4 {
+    /* width: 550px;
+    background-color: #970e0e;
+    display: flex;
+    flex-wrap: wrap; */
+  }
+  .Global-Citizenship {
+    /* position: absolute; */
+  }
+  .newsroom {
+    /* position: absolute;
+    left: 400px; */
+  }
+}
