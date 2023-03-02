@@ -36,7 +36,7 @@
     width: 5px;
   }
   .section3 {
-    height: 13px;
+    height: 300px;
     width: 25rem;
   }
   .sec3H {
@@ -49,13 +49,13 @@
     width: 17.5rem;
   }
   .section4 {
-    /* width: 550px;
+    width: 550px;
     background-color: #970e0e;
     display: flex;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
   .Global-Citizenship {
-    /* position: absolute; */
+    position: absolute; */
   }
   .newsroom {
     /* position: absolute;
