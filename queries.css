@@ -97,9 +97,7 @@
     position: relative;
     height: 1200px;
   }
-  /* .footer-items {
-    margin-left: 5px; 
-}*/
+
   .uberlogo {
     font-size: 1rem;
   }
@@ -126,12 +124,11 @@
     display: flex;
     gap: 50px;
     position: absolute;
-    left: 100px;}
+    left: 100px;
   }
-
-
-.uberT {
-  margin-bottom: 80px;}
+  .uberT {
+    margin-bottom: 80px;
+  }
 
   .apps {
     position: absolute;
