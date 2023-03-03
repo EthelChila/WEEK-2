@@ -1,46 +1,74 @@
 @media (max-width: 780px) {
   .navbar {
-    width: 80%;
+    width: 100%;
   }
+  .logo {
+    font-size: 1rem;
+  }
+  .nav ul {
+    font-size: 1rem;
+  }
+
   .mini-header {
     position: relative;
     top: 0px;
-    height: 45%;
-    width: 60%;
+    width: 550px;
+    left: 0.5rem;
   }
+  .mini-nav ul {
+    margin: 1.5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 0.7rem;
+  }
+
+  .the-icon1,
+  .the-icon2,
+  .the-icon3 {
+    width: 1rem;
+    height: 1rem;
+  }
+
   h1 {
     font-size: 2rem;
-    line-height: 1.2;
+    line-height: 1;
     text-align: left;
   }
   .navText-for-media {
     display: flex;
+    justify-content: flex-start;
   }
   .navText-for-media p {
     align-self: center;
     /* margin-top: 30px; */
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .navP-media {
     font-size: 1.1rem;
   }
   .container {
-    height: 27rem;
-    width: 80%;
+    height: 30rem;
+    width: 100%;
   }
   .navText-button-media {
     width: 17rem;
   }
   .sec2 {
-    height: 16rem;
-    width: 5px;
+    height: 50rem;
+    width: 12px;
   }
   .section3 {
-    height: 300px;
+    height: 500px;
     width: 25rem;
   }
+  .p {
+    font-size: 1rem;
+  }
   .sec3H {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: start;
+    font-weight: 400;
   }
   .imgR {
     width: 17.5rem;
@@ -49,16 +77,78 @@
     width: 17.5rem;
   }
   .section4 {
-    width: 550px;
-    background-color: #970e0e;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 0rem;
   }
   .Global-Citizenship {
-    position: absolute; */
+    position: absolute;
+    left: 400px;
   }
-  .newsroom {
-    /* position: absolute;
-    left: 400px; */
+
+  .last {
+    font-size: 0.8rem;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column-reverse;
+  }
+  .footer-wrap {
+    position: relative;
+    height: 1200px;
+  }
+  /* .footer-items {
+    margin-left: 5px; 
+}*/
+  .uberlogo {
+    font-size: 1rem;
+  }
+
+  .CitGlobal {
+    position: absolute;
+    left: 25px;
+    bottom: 450px;
+  }
+  .To-travel {
+    position: absolute;
+    left: 300px;
+    bottom: 450px;
+  }
+  .social-media {
+    position: absolute;
+    bottom: 380px;
+  }
+  .social-media ul {
+    display: flex;
+    gap: 60px;
+  }
+  .last ul {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 100px;}
+  }
+
+
+.uberT {
+  margin-bottom: 80px;}
+
+  .apps {
+    position: absolute;
+    bottom: 140px;
+  }
+  .location {
+    position: absolute;
+    bottom: 250px;
+    font-size: 0.8rem;
+  }
+
+  .location ul {
+    margin-left: 5px;
+  }
+  .Dutch {
+    position: absolute;
+    bottom: 35px;
+    left: 24px;
   }
 }
