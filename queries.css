@@ -1,19 +1,25 @@
 @media (max-width: 780px) {
   .navbar {
-    width: 100%;
+    width: 700px;
+    display: block;
   }
   .logo {
     font-size: 1rem;
   }
   .nav ul {
-    font-size: 1rem;
+    font-size: 1 rem;
   }
 
   .mini-header {
     position: relative;
     top: 0px;
-    width: 550px;
-    left: 0.5rem;
+    width: 450px;
+    left: 1rem;
+    height: 20rem;
+    /* margin-bottom: 1px; */
+  }
+  .mini-nav {
+    margin-bottom: 2rem;
   }
   .mini-nav ul {
     margin: 1.5px;
@@ -26,46 +32,88 @@
   .the-icon1,
   .the-icon2,
   .the-icon3 {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   h1 {
     font-size: 2rem;
     line-height: 1;
     text-align: left;
+    margin-bottom: 1rem;
   }
   .navText-for-media {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 1px;
   }
   .navText-for-media p {
     align-self: center;
-    /* margin-top: 30px; */
+    margin-bottom: 1rem;
     font-size: 1rem;
   }
+  .navText p {
+    border-bottom: none;
+  }
+  .navText {
+    padding-left: 0px;
+    padding-bottom: 2px;
+  }
+
   .navP-media {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .container {
     height: 30rem;
-    width: 100%;
+    width: 700px;
   }
   .navText-button-media {
     width: 17rem;
   }
-  .sec2 {
-    height: 50rem;
-    width: 12px;
+
+  .Sec2 {
+    background-image: url(https://www.loreal-finance.com/site/RA2017/app/uploads/2018/03/NYC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 15rem;
+    width: 700px;
+    position: relative;
   }
-  .section3 {
-    height: 500px;
-    width: 25rem;
+
+  .h2 {
+    left: 2rem;
+    font-weight: 400;
+  }
+  .p {
+    position: absolute;
+    left: 2rem;
+    top: 8rem;
+    font-size: 1.5rem;
+  }
+  .B2 {
+    position: absolute;
+    left: 2rem;
+    top: 11rem;
   }
   .p {
     font-size: 1rem;
   }
+  .wrap3 {
+    width: 700px;
+  }
+  .section3 {
+    display: flex;
+    height: 400px;
+    width: 25rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    gap: 35px;
+    margin-bottom: 1rem;
+  }
   .sec3H {
+    display: inline-block;
+    margin-left: 1.5rem;
     font-size: 1.5rem;
     text-align: start;
     font-weight: 400;
@@ -76,15 +124,29 @@
   .imgL {
     width: 17.5rem;
   }
+  wrap4 {
+    width: 700px;
+  }
   .section4 {
-    width: 100%;
+    width: 700px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0rem;
+    margin-left: 0px;
+    position: relative;
   }
+  .about {
+    width: 300px;
+  }
+  .newsroom {
+    width: 300px;
+    padding-top: 1rem;
+  }
+
   .Global-Citizenship {
     position: absolute;
-    left: 400px;
+    left: 2px;
+    bottom: 1px;
   }
 
   .last {
@@ -93,9 +155,13 @@
     flex: 0 1 auto;
     flex-direction: column-reverse;
   }
+  .footer-container {
+    max-width: 700px;
+  }
   .footer-wrap {
     position: relative;
     height: 1200px;
+    width: 700px;
   }
 
   .uberlogo {
@@ -149,3 +215,4 @@
     left: 24px;
   }
 }
+/* .............Mobile................ */
